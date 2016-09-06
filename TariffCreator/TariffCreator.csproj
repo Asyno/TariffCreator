@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{DDC7A735-0F55-4689-9AFA-228AA53C1B5F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>TariffCreator</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings" />
+    <None Include="publish\Application Files\TariffCreator_1_0_0_0\CG.ico.deploy" />
+    <None Include="publish\Application Files\TariffCreator_1_0_0_0\DocumentFormat.OpenXml.dll.deploy" />
+    <None Include="publish\Application Files\TariffCreator_1_0_0_0\TariffCreator.application" />
+    <None Include="publish\Application Files\TariffCreator_1_0_0_0\TariffCreator.exe.config.deploy" />
+    <None Include="publish\Application Files\TariffCreator_1_0_0_0\TariffCreator.exe.deploy" />
+    <None Include="publish\Application Files\TariffCreator_1_0_0_0\TariffCreator.exe.manifest" />
+    <None Include="publish\TariffCreator.application" />
+    <None Include="publish\TariffCreator.zip" />
+    <None Include="TariffCreator_0_0_0_TemporaryKey.pfx" />
+    <None Include="z2obaiqp.tmp_proj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NewTariff\CreateCB\CreateChargeband.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NewTariff\CreateInfFile\CreateInf.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NewTariff\NewTariff.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NewTariff\TariffCreate\CreateTariff.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="NewTariff\TariffImport\ImportTariff.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ReadInf\LoadFile\LoadFile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ReadInf\ReadFile\ReadFile.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ReadInf\ReadInf.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Config\ChargeBand.cs" />
+    <Compile Include="Config\ChargeBandList.cs" />
+    <Compile Include="Config\Country.cs" />
+    <Compile Include="Config\CountryList.cs" />
+    <Compile Include="Config\PrefixSearch.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewTariff\CreateCB\CreateChargeband.xaml.cs">
+      <DependentUpon>CreateChargeband.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewTariff\CreateInfFile\CreateInf.SaveInf.cs" />
+    <Compile Include="NewTariff\CreateInfFile\CreateInf.SaveXLSX.cs" />
+    <Compile Include="NewTariff\CreateInfFile\CreateInf.SaveXML.cs" />
+    <Compile Include="NewTariff\CreateInfFile\CreateInf.xaml.cs">
+      <DependentUpon>CreateInf.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewTariff\NewTariff.xaml.cs">
+      <DependentUpon>NewTariff.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.Import.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.ImportInf.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.Methods.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.MultiSelection.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.SearchBtn.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.SortColumn.cs" />
+    <Compile Include="NewTariff\TariffCreate\CreateTariff.xaml.cs">
+      <DependentUpon>CreateTariff.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NewTariff\TariffImport\ImportTariff.xaml.cs">
+      <DependentUpon>ImportTariff.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs" />
+    <Compile Include="Properties\Settings.Designer.cs" />
+    <Compile Include="ReadInf\LoadFile\LoadFile.LoadInf.cs" />
+    <Compile Include="ReadInf\LoadFile\LoadFile.xaml.cs">
+      <DependentUpon>LoadFile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReadInf\ReadFile\ReadFile.xaml.cs">
+      <DependentUpon>ReadFile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ReadInf\ReadInf.xaml.cs">
+      <DependentUpon>ReadInf.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CG.ico" />
+    <Content Include="Config\Countries.txt" />
+    <Content Include="Config\Prefix_Search.txt" />
+    <Content Include="publish\setup.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
