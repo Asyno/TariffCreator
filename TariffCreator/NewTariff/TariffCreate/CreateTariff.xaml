@@ -49,7 +49,7 @@
                 </TextBlock.Style>
             </TextBlock>
             <StackPanel HorizontalAlignment="Right">
-                <Button Name="btnImport" Content="Import Countrys" Click="btnImport_Click" Padding="10,0" Margin="5" />
+                <Button Name="btnImport" Content="Import Countries" Click="btnImport_Click" Padding="10,0" Margin="5" />
                 <Button Name="btnImportFile" Content="Import Inf File" Click="btnImportFile_Click" Padding="10,0" Margin="5" />
             </StackPanel>
             
