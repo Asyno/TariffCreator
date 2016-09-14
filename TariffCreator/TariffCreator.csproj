@@ -21,10 +21,10 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/Asyno/TariffCreator/tree/master/TariffCreator/publish/Application Files/WindowsApplication_1_0_0_2/</InstallUrl>
+    <InstallUrl>https://raw.githubusercontent.com/Asyno/TariffCreator/master/TariffCreator/publish/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>4</ApplicationRevision>
+    <ApplicationRevision>5</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -87,23 +87,6 @@
     <None Include="App.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_0\CG.ico.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_0\Config\Countries.txt.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_0\Config\Prefix_Search.txt.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_0\DocumentFormat.OpenXml.dll.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_0\WindowsApplication.application" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_0\WindowsApplication.exe.config.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_0\WindowsApplication.exe.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_0\WindowsApplication.exe.manifest" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_1\CG.ico.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_1\Config\Countries.txt.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_1\Config\Prefix_Search.txt.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_1\DocumentFormat.OpenXml.dll.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_1\WindowsApplication.application" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_1\WindowsApplication.exe.config.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_1\WindowsApplication.exe.deploy" />
-    <None Include="publish\Application Files\WindowsApplication_1_0_0_1\WindowsApplication.exe.manifest" />
-    <None Include="publish\WindowsApplication.application" />
     <None Include="TariffCreator_0_0_0_TemporaryKey.pfx" />
     <None Include="TariffCreator_TemporaryKey.pfx" />
     <None Include="z2obaiqp.tmp_proj" />
@@ -204,8 +187,6 @@
     <Content Include="CG.ico" />
     <Content Include="Config\Countries.txt" />
     <Content Include="Config\Prefix_Search.txt" />
-    <Content Include="publish\publish.htm" />
-    <Content Include="publish\setup.exe" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx" />
