@@ -25,4 +25,4 @@ Also you can just use this link:<br />
 
 <br />
 <h2>How-to deinstall</h2>
-You can deinstall the tool direct over the Windows Software Manager.
+You can deinstall the tool direct via Add/Remove Programs.
