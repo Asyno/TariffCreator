@@ -8,6 +8,10 @@ namespace TariffCreator.NewTariff.CreateInfFile
 {
     partial class CreateInf
     {
+        /// <summary>
+        /// Methode to save the tariff as Excel XML
+        /// </summary>
+        /// <param name="path"></param>
         private void SaveXML(string path)
         {
             DataTable table = new DataTable();

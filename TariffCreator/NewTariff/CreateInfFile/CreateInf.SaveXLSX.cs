@@ -9,6 +9,10 @@ namespace TariffCreator.NewTariff.CreateInfFile
 {
     partial class CreateInf
     {
+        /// <summary>
+        /// Methode to save the tariff as xlsx
+        /// </summary>
+        /// <param name="path"></param>
         private void SaveXLSX(string path)
         {
             try
