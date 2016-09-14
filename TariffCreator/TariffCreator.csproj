@@ -24,7 +24,7 @@
     <InstallUrl>https://raw.githubusercontent.com/Asyno/TariffCreator/master/TariffCreator/publish/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationRevision>3</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -204,8 +204,6 @@
     <Content Include="CG.ico" />
     <Content Include="Config\Countries.txt" />
     <Content Include="Config\Prefix_Search.txt" />
-    <Content Include="publish\publish.htm" />
-    <Content Include="publish\setup.exe" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx" />
