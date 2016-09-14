@@ -52,7 +52,7 @@ namespace TariffCreator.NewTariff.CreateInfFile
                     sw.Write((CbListe[i].PriceFor * 1000) + ",");
                     sw.Write((int)(CbListe[i].PriceMin * 100000) + ",");
                     sw.Write((int)(CbListe[i].MinimumPrice * 100000) + ",");
-                    sw.WriteLine("None,0,0,0,0,0");
+                    sw.WriteLine("0,0,0,0,0,0");
                 }
                 sw.WriteLine();
                 sw.Flush();
