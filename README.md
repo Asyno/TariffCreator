@@ -14,7 +14,8 @@ Also it is able to import a matrixe in the .inf format or as text per copy and p
 <br />
 <h2>How-to update</h2>
 New Versions will always be released here.
-After downloading the install package, the installer will update the Software.
+1. After downloading the install package, the installer need to be located in the folder of the first installation.
+2. The Setup will update the Software.
 
 <br />
 <h2>Bug reporting</h2>
