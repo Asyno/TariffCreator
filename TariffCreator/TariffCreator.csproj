@@ -204,6 +204,8 @@
     <Content Include="CG.ico" />
     <Content Include="Config\Countries.txt" />
     <Content Include="Config\Prefix_Search.txt" />
+    <Content Include="publish\publish.htm" />
+    <Content Include="publish\setup.exe" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx" />
