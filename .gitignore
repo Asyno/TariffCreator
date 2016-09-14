@@ -6,6 +6,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+!publish/
+!TariffCreator/publish/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
