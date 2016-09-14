@@ -13,8 +13,8 @@ Also it is able to import a matrixe in the .inf format or as text per copy and p
 
 <br />
 <h2>How-to update</h2>
-New Versions will always be released here.
-1. After downloading the install package, the installer need to be located in the folder of the first installation.
+New Versions will always be released here.<br />
+1. After downloading the install package, the installer need to be located in the folder of the first installation.<br />
 2. The Setup will update the Software.
 
 <br />
