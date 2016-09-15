@@ -1,7 +1,7 @@
 # TariffCreator
 
 The Tariff Creator Tool can create charge matrixes in .inf, excel .xml and .xlsx .
-Also it is able to import a matrix in the .inf format or a text by copy and paste to reconfigure them or to create an overview.
+It is also able to create a matrix from an .inf document or manually from a text box, in which you can copy and paste, to reconfigure them or to create an overview.
 
 
 <a href="https://github.com/Asyno/TariffCreator/releases">Download Installer and Manual</a>
