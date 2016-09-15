@@ -15,7 +15,7 @@ Also it is able to import a matrix in the .inf format or a text by copy and past
 <h2>How-to update</h2>
 New Versions will always be released here.<br />
 1. After downloading the installation package, the installer needs to be located in the folder of the first installation.<br />
-2. The Setup will update the Software.
+2. The Setup will update the software.
 
 <br />
 <h2>Bug reporting</h2>
