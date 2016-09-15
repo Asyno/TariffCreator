@@ -7,9 +7,9 @@ Also it is able to import a matrix in the .inf format or a text by copy and past
 <a href="https://github.com/Asyno/TariffCreator/releases">Download Installer and Manual</a>
 
 <br />
-<h2>How-to run</h2>
-1. load the install packet from the provided link and open the zip.
-2. start the setup.exe; the following dialogue will guide you through the installation.
+<h2>How-to run the program</h2>
+1. Download the install packet from the provided link and open the zip.
+2. Start the setup.exe; the following dialogue will guide you through the installation.
 
 <br />
 <h2>How-to update</h2>
