@@ -121,18 +121,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="ReadInf\LoadFile\LoadFile.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="ReadInf\ReadFile\ReadFile.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="ReadInf\ReadInf.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -173,16 +161,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs" />
     <Compile Include="Properties\Settings.Designer.cs" />
-    <Compile Include="ReadInf\LoadFile\LoadFile.LoadInf.cs" />
-    <Compile Include="ReadInf\LoadFile\LoadFile.xaml.cs">
-      <DependentUpon>LoadFile.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ReadInf\ReadFile\ReadFile.xaml.cs">
-      <DependentUpon>ReadFile.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ReadInf\ReadInf.xaml.cs">
-      <DependentUpon>ReadInf.xaml</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="CG.ico" />

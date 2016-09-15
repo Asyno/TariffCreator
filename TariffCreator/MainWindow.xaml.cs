@@ -8,7 +8,6 @@ namespace TariffCreator
     public partial class MainWindow : Window
     {
         private NewTariff.NewTariff newTariff;
-        private ReadInf.ReadInf readInf;
 
         public MainWindow()
         {
@@ -25,17 +24,6 @@ namespace TariffCreator
             }
             else
                 newTariff.Activate();
-        }
-
-        private void btnOverview_Click(object sender, RoutedEventArgs e)
-        {
-            if (readInf == null || !readInf.IsVisible)
-            {
-                readInf = new ReadInf.ReadInf();
-                readInf.Show();
-            }
-            else
-                readInf.Activate();
         }
     }
 }
