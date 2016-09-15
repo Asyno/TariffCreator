@@ -19,10 +19,10 @@ New Versions will always be released here.<br />
 
 <br />
 <h2>Bug reporting</h2>
-You can open a new issue and describe the bug there
+You can open a new issue and describe the bug there.
 Or you can simply use this link:<br />
 <a href="https://github.com/Asyno/TariffCreator/issues/new">new issue</a>
 
 <br />
-<h2>How-to deinstall</h2>
+<h2>How-to uninstall</h2>
 You can uninstall the tool direct via Add/Remove Programs.
